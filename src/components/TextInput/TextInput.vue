@@ -85,30 +85,30 @@ const textColor = computed(() => {
 
 const inputClasses = computed(() => {
   let sizeClasses = {
-    sm: 'text-base rounded h-7',
-    md: 'text-base rounded h-8',
-    lg: 'text-lg rounded-md h-10',
-    xl: 'text-xl rounded-md h-10',
+    sm: 'text-base rounded h-10',
+    md: 'text-base rounded h-11',
+    lg: 'text-lg rounded-md h-12',
+    xl: 'text-xl rounded-md h-13',
   }[props.size]
 
   let paddingClasses = {
     sm: [
-      'py-1.5',
+      'py-2.5',
       slots.prefix ? 'pl-8' : 'pl-2',
       slots.suffix ? 'pr-8' : 'pr-2',
     ],
     md: [
-      'py-1.5',
+      'py-2.5',
       slots.prefix ? 'pl-9' : 'pl-2.5',
       slots.suffix ? 'pr-9' : 'pr-2.5',
     ],
     lg: [
-      'py-1.5',
+      'py-2.5',
       slots.prefix ? 'pl-10' : 'pl-3',
       slots.suffix ? 'pr-10' : 'pr-3',
     ],
     xl: [
-      'py-1.5',
+      'py-2.5',
       slots.prefix ? 'pl-10' : 'pl-3',
       slots.suffix ? 'pr-10' : 'pr-3',
     ],
